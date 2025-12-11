@@ -145,6 +145,10 @@ button[type="submit"] {
     border-radius: 5px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .btn-subheading a {
     color: #dd8500;
     text-decoration: none;
