@@ -17,14 +17,12 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 2px solid yellow;
 }
 
 .bg-container {
     width: 35%;
     height: 100%;
     position: relative;
-    border: 2px solid red;
 }
 
 .bg-img {
@@ -63,7 +61,6 @@ body {
     width: 65%;
     height: 100%;
     display: block;
-    border: 2px solid blue;
     padding-top: 100px;
 }
 
@@ -92,7 +89,6 @@ body {
     flex-direction: column;
     padding: 5px;
     padding-bottom: 20px;
-    border: 2px solid purple;
 }
 
 .form-input label {
@@ -118,4 +114,29 @@ body {
     width: 100%;
     border-bottom: .1px solid lightgray;
     box-shadow: 0 5px 10px 1px gray;
+}
+
+.submit-division {
+    padding: 50px;
+    padding-top: 30px;
+    border: 2px solid red;
+    margin: 0;
+}
+
+button[type="submit"] {
+    width: 200px;
+    height: 40px;
+    background-color: #dd8500;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-subheading a {
+    color: #dd8500;
+    text-decoration: none;
+    font-weight: 700;
+
 }
